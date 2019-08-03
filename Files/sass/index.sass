@@ -1,0 +1,233 @@
+@font-face
+  font-family: "AvenirNext-Regular"
+  src: url("../fonts/AvenirNext/AvenirNext-Regular.eot")
+  src: url("../fonts/AvenirNext/AvenirNext-Regular.woff") format("woff"), 
+  url("../fonts/AvenirNext/AvenirNext-Regular.otf") format("opentype"),
+  url("../fonts/AvenirNext/AvenirNext-Regular.svg#filename") format("svg")
+  font-family: "AvenirNext-Bold"
+  src: url("../fonts/AvenirNext/AvenirNext-Bold.eot")
+  src: url("../fonts/AvenirNext/AvenirNext-Bold.woff") format("woff"), 
+  url("../fonts/AvenirNext/AvenirNext-Bold.otf") format("opentype"),
+  url("../fonts/AvenirNext/AvenirNext-Bold.svg#filename") format("svg")
+  font-family: "ZahrahforDouglas-Regular"
+  src: url("../fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.eot")
+  src: url("../fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.woff") format("woff"), 
+  url("../fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.otf") format("opentype"),
+  url("../fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.svg#filename") format("svg")
+
+.container
+    width: 1035px !important
+    margin: auto !important
+
+.hero-image
+  background: url(../images/hero_desktop.jpg)
+  background-size: cover
+  background-position: -6px 0px
+  background-repeat:no-repeat
+  h1
+    color: #fff
+    line-height: 1
+    font-family: "ZahrahforDouglas-Regular"
+  p,ul
+    color: #fff
+    font-size: 14px 
+
+.has-margin-left-170 
+  margin-left: 170px !important;
+
+.custom-list
+  list-style: none
+  padding-left: 0
+  li
+    position: relative
+    padding-left: 20px
+    &:before
+      content: ''
+      width: 10px
+      height: 10px
+      position: absolute
+      background-image: url('img/bullet.png')
+      background-size: cover
+      background-position: center
+      left: 0
+      top: 50%
+      transform: translateY(-50%)
+
+.hero-image-ul
+  list-style: none
+  padding-left: 0
+  li
+    position: relative
+    padding-left: 38px
+    &:before
+      content: ''
+      width: 28px
+      height: 10px
+      position: absolute
+      background-image: url(../icons/arrow_green.svg)
+      background-size: cover
+      background-position: center
+      left: 0
+      top: 27%
+      transform: translateY(-50%)
+
+@media only screen and (max-width: 1024px)
+  .hero-image
+    background: url(../images/hero_tablet.jpg)
+    background-size: cover;
+  
+
+@media only screen and (max-width: 768px)
+  .hero-image
+    background: url(../images/hero_mobile.jpg)
+    background-size: cover;
+  
+.platform-background
+  background: #f7f7f7
+
+.platform-section
+  background-color: #e6f6f5
+  bottom: 75px
+  padding: 50px 45px 50px 45px
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+
+  .media
+    border: none !important
+
+/* css for postal-code enter form */
+.postal-code
+  background: url(../images/map.jpg)
+  text-align: center
+  background-size: cover
+  background-repeat: no-repeat
+  padding-top: 74px
+  position: relative
+  bottom: 44px
+  padding-bottom: 232px
+
+  .enter-postcode
+    display: inline-block;
+    width: 515px
+    background: #fff
+    padding: 50px
+    border-style: solid;
+    border-width: 7px;
+    border-color: #97ddd2
+    border-left: hidden;
+    border-right: hidden;
+
+  .wrapper
+    display: inline-block;
+    border-bottom: 2px solid black;
+    width: 100%;
+
+    input:focus
+      outline: none;
+
+    input 
+      margin-bottom: 8px;
+      padding-bottom: 10px;
+      font-family: "AvenirNext-Regular"
+      border: none;
+      display: inline-block;
+  
+  .button
+    float: right;
+
+  .enter-postcode-underline
+    background-color: #0f0303;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+
+.bottom-border-home
+    background: #97ddd2
+    width: 17%
+    height: 5px
+
+/* css for contact-form-section */
+.contact-form-section
+  position: relative;
+  bottom: 176px;
+
+.win-customer
+  background-color: #e6f6f5
+  display: inline-block;
+  width: 30%;
+  padding: 60px 60px 116px 60px;
+
+.contact-form
+  display: inline-block;
+  width: 69%;
+  background-color: white
+  z-index: 1;
+  position: relative;
+  bottom: 138px;
+  right: 34px;
+  box-shadow: 0px 0px 13px -9px;
+
+  .media-content
+    width: 100%;
+    padding: 24px 0px 0px 46px;
+
+    .content
+      form
+        input
+          border-bottom: 1px black;
+          margin-bottom: 8px;
+          border-style: solid;
+          border-top: hidden;
+          border-left: hidden;
+          border-right: hidden;
+          padding-bottom: 10px;
+          font-family: "AvenirNext-Regular"
+          width: 100%;
+
+  article
+    figure
+      img 
+        display: flex;
+
+.has-width-312
+  width: 312px !important
+
+/* css of time table section */
+.time-table-section
+  margin-top: -304px !important;
+
+.time-section-heading
+  background: #fff
+  text-align: center
+  width: 500px
+  padding: 50px 
+
+.time-section
+  padding: 0px 60px
+
+  .media
+    border: none !important
+
+.time-table-article
+  padding: 17px
+  width: 29%
+  margin-right: 60px
+
+.time-table-image
+ width: 62%
+
+/* css for footer-section */
+.footer-douglas
+  background: #e6f6f5;
+
+.footer-douglas
+  margin: auto
+  
+
+  .container
+    width: 1035px
+    p
+     display: inline-block
+     padding: 50px 40px 50px 0px;

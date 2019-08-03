@@ -1,0 +1,22 @@
+{
+  "name": "bulmatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "bulma-helpers": "^0.3.8",
+    "cors": "^2.8.5",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bidisha",
+  "license": "ISC"
+}
